@@ -1,0 +1,48 @@
+1====================
+
+Just try to add /admin or /administrator-panel in the url
+
+Try to fetch robots.txt and see the is there any admin url 
+
+2=====================
+
+Go to inspect element and search for the keyword admin
+
+There may be any admin url present.
+
+3====================
+
+If there is a role id or isadmin in response try to make it different in request and then see you may get more privileges
+
+Try changing any details in my account section and see the response in repeater. If you see "roleid":2 in response
+
+then add "roleid":2 into the JSON in the request body and then send the request.
+
+4===============
+
+If you enter /admin and see response access denied try X-Original-URL:
+
+Send the request to repeater and see normal get request response you will see 200 OK
+
+Now send X-Original-URL: /invalid and then check if the application is taking input from X-Original-URL if it is taking
+you should see not found or any other than 200 OK
+
+Now send X-Original-URL: /admin and see the response in browser.
+
+5=================
+
+Normal user cookie can be used to upgrade a users privileges by changing the request method
+
+From admin account upgrade user A to admin and try to use user b cookies it will promt error
+
+Try changing the method to post it may work.
+
+Log in to admin account and upgrade user A with cookies of user B in GET request
+
+6===================
+
+Admin password can be revealed in response
+
+Go to your password change page and reload the page and in request give admins used id
+
+The response may contain value of admins password.
