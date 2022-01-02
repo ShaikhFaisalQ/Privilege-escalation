@@ -10,6 +10,8 @@ Go to inspect element and search for the keyword admin
 
 There may be any admin url present.
 
+If IsAdmin=false make it true and save the changes by clicking on update the profile information.
+
 3====================
 
 If there is a role id or isadmin in response try to make it different in request and then see you may get more privileges
